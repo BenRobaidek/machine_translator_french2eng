@@ -670,7 +670,8 @@ def trainIters(encoder, decoder, n_iters, print_every=1000, plot_every=100, lear
 #
 
 import matplotlib.pyplot as plt
-plt.switch_backend('agg')
+plt.switch_backend('Agg')
+#plt.switch_backend('agg')
 import matplotlib.ticker as ticker
 import numpy as np
 
